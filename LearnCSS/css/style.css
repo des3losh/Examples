@@ -1,0 +1,88 @@
+/* margin and padding 0 (zero) for all element */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  
+}
+/* Strart tools of page  */
+
+.continer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* End tools of page  */
+
+
+
+/* Start the nav bar  */
+
+
+.nav-bar {
+    background-color: #062f3c;
+}
+
+
+.nav-bar ul {
+    display: inline-block;
+}
+
+.nav-bar ul li {
+    margin: 5px;
+    padding: 10px 18px;
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 18px;
+    color: #FFF;
+}
+
+.nav-bar ul li:hover {
+    background-color: #FFF;
+    color: #062f3c; 
+    border-radius: 5px;
+}
+
+/* End the nav bar  */
+
+
+
+/* start sections style  */
+
+.sections {
+    margin: 20px;
+    padding: 10px;
+}
+
+.sections section {
+    margin-top: 40px;
+    background-color: #ecf0f1;
+    border-radius: 7px;
+}
+
+#html {
+    position: relative;
+    overflow: hidden;
+}
+.sections .se-header {
+    background-color: #062f3c;
+    color: #fff;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.sections img {
+    position: absolute;
+    width: 100px;
+}
+
+
+.sections .se-header h2,
+.sections p {
+    padding: 10px;
+}
+
+.sections p {
+    text-align: justify;
+    display: inline-block;
+}
+
+/* End sections style  */

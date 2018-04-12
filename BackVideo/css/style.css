@@ -1,0 +1,16 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(241, 241, 241);
+    background: linear-gradient(#2FCD6E,#252F31);
+}
+
+.back-warp  {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;    
+}
+
+#b-video {
+    width: 100vw;
+}
